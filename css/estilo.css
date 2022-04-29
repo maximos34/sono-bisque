@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Ms+Madi&family=Noto+Sans+JP&family=Raleway:ital,wght@1,100&family=Updock&display=swap');
+
+
+/*
+fontes para o site
+font-family: 'Akshar', sans-serif;
+font-family: 'Ms Madi', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Updock', cursive; */
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+:root {
+    --cor0: #FFEAE6;
+
+
+}
+
+header {
+    background-color: var(--cor0);
+
+}
+
+nav {
+    background-color: #FFEAE6;
+    padding: 3px;
+    box-shadow: 3px 3px 10px #ffeae67c;
+
+}
+
+nav>a {
+
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+body {
+    max-height:800px;
+    min-height:280px;
+    background-image: url('../src/img/background1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.border1 {
+    border: 1px solid #000;
+}
+
+.painel1 {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 60px auto 20px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.container1 {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 60px auto 20px auto;
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 60px auto 20px auto;
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+
+.img1 {
+    width: 10%;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+footer {
+    padding: 5px;
+    align-items: bottom;
+    text-align: center;
+
+}
