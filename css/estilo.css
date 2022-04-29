@@ -48,7 +48,7 @@ nav>a:hover {
 body {
     max-height:800px;
     min-height:280px;
-    background-image: url('../src/img/background1.jpg');
+    background-image: url('../img/background1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 
