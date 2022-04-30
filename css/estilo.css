@@ -7,13 +7,15 @@ font-family: 'Akshar', sans-serif;
 font-family: 'Ms Madi', cursive;
 font-family: 'Noto Sans JP', sans-serif;
 font-family: 'Raleway', sans-serif;
-font-family: 'Updock', cursive; */
+font-family: 'Updock', cursive;
+box-shadow: 3px 3px 10px #ffeae67c; */
 * {
     padding: 0;
     margin: 0;
-    vertical-align: baseline;
-    list-style: none;
-    border: 0;
+    text-decoration:none;
+    border:0;
+    list-style:none;
+    box-sizing:border-box;
 }
 
 :root {
@@ -29,20 +31,29 @@ header {
 
 nav {
     background-color: #FFEAE6;
-    padding: 3px;
-    box-shadow: 3px 3px 10px #ffeae67c;
-
+    height: 80px;
+    width: 100%;
+   
 }
 
-nav>a {
-
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 50px;
+label.logo{
+  color:rgb(12, 11, 11);
+  font-size:35px;
+  line-height:80px;
+  padding:0 100px; 
+  font-weight:bold;  
 }
 
-nav>a:hover {
-    text-decoration: underline;
+nav ul {
+    float: right;
+    margin-right:20px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 7px;
 }
 
 body {
