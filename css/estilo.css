@@ -64,6 +64,7 @@ body {
     height: auto;
     padding: 10px;
     margin: 60px auto 20px auto;
+    display: inline-block;
     align-items: center;
     text-align: center;
 }
@@ -75,7 +76,7 @@ body {
     margin: 60px auto 20px auto;
     font-family: 'Akshar', sans-serif;
     font-size: 20px;
-    display: flex;
+    display:inline-block;
     align-items: center;
     text-align: center;
 }
@@ -90,6 +91,14 @@ p {
     background-color: #fff;
     align-items: center;
     text-align: center;
+}
+
+img{
+    width:20%;
+    height:20%;
+   
+    
+
 }
 
 footer {
