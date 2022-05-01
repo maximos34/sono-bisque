@@ -59,7 +59,7 @@ nav ul li a {
     color: #000;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 30px 17px;
+    padding: 30px 30px;
 }
 
 nav ul li ul {
@@ -67,7 +67,7 @@ nav ul li ul {
     background:rgba(255, 234, 230, 0.5);
     min-width: 250px;
     position: absolute;
-    margin-top:70px;
+    margin-top:30px;
     box-shadow: 0 2px 5px #000;
     opacity: 0;
     visibility: hidden;
