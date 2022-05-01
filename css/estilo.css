@@ -28,7 +28,7 @@ box-shadow: 3px 3px 10px #ffeae67c; */
     position: absolute;
     width: 100vh;
     background-color: var(--cor0);
-    padding: 0 100px;
+    padding: 0 90px;
     box-sizing: border-box;
     border-bottom: 1px solid #000;
 }
