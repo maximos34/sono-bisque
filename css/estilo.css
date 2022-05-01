@@ -41,6 +41,7 @@ box-shadow: 3px 3px 10px #ffeae67c; */
 
 nav {
 
+    display:flex;
     position: relative;
     float: right;
 }
