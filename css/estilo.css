@@ -35,7 +35,8 @@ box-shadow: 3px 3px 10px #ffeae67c; */
 
 .menu img {
     float: left;
-    width: 85px;
+    width: 160px;
+    height: 160px;
 }
 
 nav {
@@ -65,7 +66,7 @@ nav ul li ul {
     background:rgba(255, 234, 230, 0.5);
     min-width: 250px;
     position: absolute;
-    margin-top:10px;
+    margin-top:70px;
     box-shadow: 0 2px 5px #000;
     opacity: 0;
     visibility: hidden;
