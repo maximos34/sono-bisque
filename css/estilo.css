@@ -118,11 +118,15 @@ body {
     text-align: center;
 }
 
+.article01{
+margin:10px;
+}
+
 p {
     width: auto;
     height: auto;
     padding: 10px;
-    margin: 60px auto 20px auto;
+    margin: 30px auto 10px auto;
     font-family: 'Akshar', sans-serif;
     font-size: 20px;
     background-color: #fff;
