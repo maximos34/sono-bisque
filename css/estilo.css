@@ -26,9 +26,9 @@ box-shadow: 3px 3px 10px #ffeae67c; */
 
 .menu {
     position: absolute;
-    width: 100vh;
+    width: 100%;
     background-color: var(--cor0);
-    padding: 0 90px;
+    padding: 0 100px;
     box-sizing: border-box;
     border-bottom: 1px solid #000;
 }
