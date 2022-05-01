@@ -26,7 +26,7 @@ box-shadow: 3px 3px 10px #ffeae67c; */
 
 .menu {
     position: absolute;
-    width: 100%;
+    width: 100vh;
     background-color: var(--cor0);
     padding: 0 100px;
     box-sizing: border-box;
