@@ -1,3 +1,22 @@
 body{
-background-image:url('/asset/img/backgrounds/banner1.jpg')
+background-color: #ddd9ce ;
+}
+
+.fundo01{
+    display:flex;
+    max-width: 1000px;
+    min-width: 320px;
+    max-height:900px;
+    min-height:320px;
+    height:100%;
+
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+height:100px;
+height: auto;
+margin: 30px 50px;
+    background-color:#fff;
 }
