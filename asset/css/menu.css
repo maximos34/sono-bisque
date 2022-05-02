@@ -9,7 +9,7 @@
   }
   
   .menu > li {
-    background: #ff7fb8;
+    background: #EFFFE6;
     float: left;
     position: relative;
     transform: skewX(25deg);
@@ -17,7 +17,7 @@
   
   .menu a {
     display: block;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     text-decoration: none;
     font-family: Arial, Helvetica;
@@ -25,7 +25,7 @@
   }		
   
   .menu li:hover {
-    background: #ff7fb94d;
+    background: #F6E6FF;
   }		
   
   .menu > li > a {
@@ -44,7 +44,7 @@
   }
   
   .submenu li {
-    background-color: #ff7fb8;
+    background-color: #EFFFE6;
     position: relative;
     overflow: hidden;		
   }						
