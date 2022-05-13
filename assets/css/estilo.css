@@ -3,7 +3,7 @@
 * {
   font-size: 62, 5%;
   margin: 0;
-  padding: none;
+  padding: 0;
   border: none;
   text-decoration: none;
 }
@@ -22,88 +22,80 @@
 }
 
 body {
-  background: var(--color0);
+  background: var(--color4);
   height: 100vh;
+  width: 100vw;
 }
 
 .container {
   height: 100%;
   display: grid;
-  grid-template-columns: 20rem 1fr;
-  grid-template-rows: 7.5rem auto 7.5rem;
+  grid-template-columns: 1fr 10rem;
+  grid-template-rows: 7.5rem 1fr 7.5rem;
   grid-gap: 1rem;
   grid-template-areas:
     'header header'
-    'aside main'
+    'main aside'
     'footer footer'
   ;
 }
 
 header {
-  display: grid;
   grid-area: header;
-  background: var(--color1);
-  color: var(--color-text-0);
+  background: var(--color3);
   justify-content: center;
-  align-items: center;
-}
-.logo{
-  width: 8rem;
-  height:auto;
-}
-
-aside {
+  align-content: center;
   display: grid;
-  grid-area: aside;
-  background: var(--color2);
-  justify-content: center;
-  align-items: center;
+  color: var(--color-text-0)
 }
 
 main {
-  display: grid;
   grid-area: main;
-  background: var(--color4);
+  background: var(--color2);
   justify-content: stretch;
-  align-items: stretch;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+  align-content: stretch;
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(auto, 1fr));
   grid-auto-rows: auto;
   grid-gap: 1rem;
-  padding:1rem;
+  padding: 1rem;
+}
+
+.blog1 {
+  background: var(--color4);
 }
 
 
-.item-blog {
-  background: var(--color3);
-  color: var(--color-text-0);
-  font-size:1rem;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-}
-
-.picture-blog-1{
-  height: 8rem;
+aside {
+  grid-area: aside;
+  background: var(--color1);
+  justify-content: center;
+  align-content: center;
+  display: grid;
 }
 
 footer {
-  display: grid;
+  padding: auto;
   grid-area: footer;
   background: var(--color3);
-  color: var(--color-text-0);
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  display: grid;
+  color: var(--color-text-0)
 }
-@media (max-width:65rem) {
+
+@media(max-width:40rem) {
   aside {
     display: none;
   }
-  .container{
-    display:grid;
+
+  .container {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
       'header'
       'main'
-      'footer';
+      'footer'
+    ;
   }
 }
