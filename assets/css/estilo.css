@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif+JP&family=Roboto&display=swap');
+
+* {
+  font-size: 62, 5%;
+  margin: 0;
+  padding: none;
+  border: none;
+  text-decoration: none;
+}
+
+:root {
+  --japan: 'Noto Serif JP', serif;
+  --paragraf: 'Roboto', sans-serif;
+  --titulo: 'Lobster', cursive;
+  --color0: hsl(12, 100%, 95%);
+  --color1: hsl(13, 13%, 71%);
+  --color2: hsl(9, 5%, 48%);
+  --color3: hsl(17, 6%, 24%);
+  --color4: hsl(10, 32%, 86%);
+  --color-text-0: hsl(0, 0%, 100%);
+  --color-text-1: hsl(0, 0%, 0%);
+}
+
+body {
+  background: var(--color0);
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  grid-template-rows: 7.5rem 1fr 7.5rem;
+  grid-gap: 1rem;
+  grid-template-areas:
+    'header header'
+    'aside main'
+    'footer footer'
+  ;
+}
+
+header {
+  display: grid;
+  grid-area: header;
+  background: var(--color1);
+  color: var(--color-text-0);
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  width: 8rem;
+  height:auto;
+}
+
+aside {
+  display: grid;
+  grid-area: aside;
+  background: var(--color2);
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: grid;
+  grid-area: main;
+  background: var(--color4);
+  justify-content: stretch;
+  align-items: stretch;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+  grid-auto-rows: 15rem;
+  grid-gap: 1rem;
+  padding:1rem;
+}
+
+
+.item-blog {
+  background: var(--color3);
+  color: var(--color-text-0);
+  font-size:1rem;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.picture-blog-1{
+  height: 8rem;
+}
+
+footer {
+  display: grid;
+  grid-area: footer;
+  background: var(--color3);
+  color: var(--color-text-0);
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width:65rem) {
+  aside {
+    display: none;
+  }
+  .container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'header'
+      'main'
+      'footer';
+  }
+}
