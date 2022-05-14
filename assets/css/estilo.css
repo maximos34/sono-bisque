@@ -123,7 +123,7 @@ header {
   background: var(--color3);
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows:15rem;
+  grid-template-rows:10rem;
   grid-template-areas:
     'nav logo'
   ;
