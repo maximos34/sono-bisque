@@ -138,6 +138,6 @@ nav {
 .logo>img {
   grid-area: logo;
   height: 100%;
-  margin-right: 10rem;
+  margin-right: 1rem;
 
 }
