@@ -1,58 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/assets/css/estilo.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <header class="container__nav">
-        <nav class="menu">
-          <div class="logo">
-            <img class="logologo" src="/assets/img/Sono_Bisuku_Dōru_wa_Koi_wo_Suru_Logo.png" alt="">
-          </div>
-          <ul class="navegation">
-            <li class="navetagion__item">home</li>
-            <li class="navetagion__item">historia</li>
-            <li class="navetagion__item">personagens</li>
-            <li class="navetagion__item">episodios e mideas</li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="blog1">
-          <h3 class="text1">Sinopse</h3>
-          <img src="/assets/img/sono-bisque-doll-1.jpg" alt="" />
-          <p class="text1">
-            Wakana Gojo é um estudante do primeiro ano do ensino médio que sonha
-            em se tornar uma artesão de bonecas hina . <br />
-            Um dia, durante seu primeiro semestre, sua popular colega de classe
-            Marin Kitagawa o vê fazendo fantasias de boneca na sala de costura
-            da escola. <br />
-            Marin, que há tempos queria fazer cosplay e observava a habilidade
-            de costura de Wakana , pede que ele crie a fantasia de um personagem
-            de um videogame que ela adora. <br />
-            Apesar do fato de Wakana não ter experiência em fazer uma fantasia
-            em escala humana, ele se inspirou na tenacidade de Marin e concordou
-            em fazer uma para ela. <br />
-          </p>
-          <button class="btn-primary">
-            <a href="#">clique aqui para mais</a>
-          </button>
+    <header >
+      <nav>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
         </div>
-        <div class="blog-item"></div>
-        <div class="blog-item"></div>
-        <div class="blog-item"></div>
-        <div class="blog-item"></div>
-        <div class="blog-item"></div>
-        <div class="blog-item"></div>
-        <div class="blog-item"></div>
-        <div class="blog-item"></div>
-      </main>
-      <footer><h3>Feito por Pedro Jose a fins de estudo</h3></footer>
-    </div>
+        <div class="side-bar active">
+          <div class="close-btn">
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="menu">
+            <div class="item">
+              <a href="index.html"><i class="fa-solid fa-house-chimney"></i>home</a>
+            </div>
+            <div class="item">
+              <a href="index.html"><i class="fas fa-th"></i>historia e enredo</a>
+            </div>
+            <div class="item">
+              <a class="sub-btn"
+                ><i class="fas fa-table"></i>personagens<i
+                  class="fas fa-angle-right dropdown"
+                ></i
+              ></a>
+              <div class="sub-menu">
+                <a href="#" class="sub-item">Javascript</a>
+                <a href="#" class="sub-item">PHP</a>
+                <a href="#" class="sub-item">React.js</a>
+              </div>
+            </div>
+            <div class="item">
+              <a href="index.html"><i class="fas fa-th"></i>Recursos</a>
+            </div>
+            <div class="item">
+              <a class="sub-btn"
+                ><i class="fas fa-cogs"></i>Login<i
+                  class="fas fa-angle-right dropdown"
+                ></i
+              ></a>
+              <div class="sub-menu">
+                <a href="#" class="sub-item">Cadastre-se</a>
+                <a href="#" class="sub-item">Logar</a>
+              </div>
+            </div>
+            <div class="item">
+              <a href="index.html"><i class="fas fa-info-circle"></i>Sobre</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="logo">
+        <img src="/assets/imgs/Sono_Bisuku_Dōru_wa_Koi_wo_Suru_Logo.png" alt="">
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script src="https://kit.fontawesome.com/d87d53b91d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      charset="UTF-8"
+    ></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
