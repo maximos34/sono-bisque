@@ -72,7 +72,7 @@ body {
 }
 
 .side-bar .menu .item a {
-  color: var(--color5);
+  color: var(--color0);
   font-size: 16px;
   text-decoration: none;
   display: block;
@@ -81,7 +81,7 @@ body {
 }
 
 .side-bar .menu .item a:hover {
-  background: var(--color4);
+  background: var(--color2);
   transition: 0.3s ease;
 
 }
@@ -99,7 +99,7 @@ body {
 }
 
 .side-bar .menu .item .sub-menu {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--color4);
   display: none;
 }
 
@@ -113,7 +113,7 @@ body {
 
 .close-btn {
   position: absolute;
-  color: var(--color5);
+  color: var(--color0);
   font-size: 20px;
   right: 0;
   margin: 25px;
@@ -122,8 +122,8 @@ body {
 
 .menu-btn {
   position: absolute;
-  color: var(--color5);
-  font-size: rem;
+  color: var(--color0);
+  font-size: 2.5rem;
   margin: 25px;
   cursor: pointer;
 }
@@ -167,14 +167,22 @@ align-content: stretch;
 }
 .blog_item {
   background: var(--color4);
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .blog_item>img{
   height: 30vh;
   width: 60vw;
+  margin-inline: auto;
 }
 
 footer{
   grid-area:footer;
+  display: grid;
+  text-align: center;
+}
 }
 
 
