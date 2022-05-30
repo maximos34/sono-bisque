@@ -7,7 +7,7 @@ $(document).ready(function(){
 
   $('.menu-btn').click(function(){
     $('.side-bar').addClass('active');
-    $('.menu-btn').css("visibility", "hidden");
+    $('.menu-btn').css("hidden", "visibility");
   });
 
   $('.close-btn').click(function(){
