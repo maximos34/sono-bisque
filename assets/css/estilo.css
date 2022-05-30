@@ -15,7 +15,7 @@
   --japan: 'Noto Serif JP', serif;
   --paragraf: 'Roboto', sans-serif;
   --titulo: 'Lobster', cursive;
-  --color0: hsl(12, 100%, 95%);
+  --color0: hsl(14, 100%, 95%);
   --color1: hsl(13, 13%, 71%);
   --color2: hsl(9, 5%, 48%);
   --color3: hsl(17, 6%, 24%);
@@ -158,8 +158,8 @@ nav {
   background: var(--color0);
   display: grid;
   grid-area: main;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-auto-rows: 15rem;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+  grid-auto-rows: auto;
 
 grid-gap: 2rem;
 justify-content: stretch;
