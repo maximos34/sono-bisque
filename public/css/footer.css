@@ -1,0 +1,9 @@
+@import url(/public/css/estilo.css);
+
+footer  {
+grid-area: footer;
+background-color:var(--color5);
+text-align:center;
+color: var(--color-text-0);
+}
+

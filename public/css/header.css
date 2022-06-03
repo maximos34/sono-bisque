@@ -1,0 +1,62 @@
+@import url(/public/css/estilo.css);
+
+header {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:auto;
+  grid-area: header;
+  background-color: var(--color5);
+  justify-content: right;
+  align-items: center;
+
+}
+
+.logo {
+  grid-area: logo;
+  cursor: default;
+  user-select: none;
+}
+
+
+nav{
+  grid-area:nav;
+}
+
+nav ul {
+  align-items: center;
+  justify-content:center;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: .2rem;
+  gap: 1rem;
+}
+
+nav ul li {
+  background: var(--color3);
+  padding: .5rem .8rem;
+  cursor: pointer;
+  border: .3rem double var(--color0);
+  border-radius:2rem;
+}
+
+nav ul li .items {
+  width: auto;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+nav ul li a {
+  color: var(--color-text-0);
+  text-decoration: none;
+}
+
+@media all and (max-width:90rem){
+  nav{
+    padding:.5rem 3rem;
+  }
+
+ nav  ul li .items {
+    width:100%;
+  }
+}
