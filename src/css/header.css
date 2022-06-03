@@ -45,17 +45,25 @@ nav ul li .items {
   text-align: center;
 }
 
+nav ul li .items :after{
+  position: absolute;
+  content: " ";
+  height
+}
+
 nav ul li a {
   color: var(--color-text-0);
   text-decoration: none;
 }
 
-@media all and (max-width:32rem) {
+@media all and (max-width:90rem) {
   nav {
-    padding: .5rem 3rem;
+    width: 100vw;
+    padding: 1.5rem 3rem;
+  
   }
 
-  nav>ul>li .items {
-    width: 100%;
+  .items {
+    width: 100vw;
   }
 }
