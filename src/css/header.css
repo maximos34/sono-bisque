@@ -3,7 +3,7 @@
 header {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows:auto;
+  grid-template-rows: auto;
   grid-area: header;
   background-color: var(--color5);
   justify-content: right;
@@ -18,15 +18,15 @@ header {
 }
 
 
-nav{
-  grid-area:nav;
-  padding:.5rem 1rem;
+nav {
+  grid-area: nav;
+  padding: .5rem 1rem;
 }
 
 nav ul {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   font-size: 1rem;
   flex-wrap: wrap;
   margin: .2rem;
@@ -50,12 +50,12 @@ nav ul li a {
   text-decoration: none;
 }
 
-@media all and (max-width:90rem){
-  nav{
-    padding:.5rem 3rem;
+@media all and (max-width:32rem) {
+  nav {
+    padding: .5rem 3rem;
   }
 
- nav>ul>li .items {
-    width:100%;
+  nav>ul>li .items {
+    width: 100%;
   }
 }
