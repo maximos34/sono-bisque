@@ -2,7 +2,7 @@
 
 main {
   grid-area: main;
-  background:var(--color3)
+  background: var(--color3)
 }
 
 .banner {
@@ -10,17 +10,37 @@ main {
   height: 26rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap:1rem;
-  background:var(--color0);
+  justify-content: space-around;
+  margin-inline: auto;
+  gap: .4rem;
+  background: var(--color0);
 }
 
-.banner img{
-  width:18rem ;
+.banner img {
+  width: 16rem;
+}
+
+.principal {
+  background: var(--color1);
+  width: auto;
+  text-align: center;
+}
+
+.principal>h1 {
+  font-family:var(--titulo) ;
+  padding:3rem;
+  font-size:2rem;
 }
 
 .caixa{
-  background:var(--color1);
-  width: auto;
+  font-family:var(--paragraf);
+  display:block;
+  padding:1rem;
+  margin:1rem;
+  font-size:1rem;
+  border: .8rem double var(--color5);
 }
 
+.caixa>h3{
+  border: .8rem double var(--color5);
+}
