@@ -28,8 +28,7 @@ nav ul li a:hover {
 }
 
 nav ul.menu {
-  background:var(--color5);
-  opacity: .4;
+  background: var(--color-text-0);
   position: absolute;
   top: 75px;
   left: 0;
@@ -67,19 +66,20 @@ nav ul.button:hover li {
 
 @media(min-width: 700px) {
   nav ul.menu {
-      display: flex!important;
-      flex-direction: row;
-      position: relative;
-      top: 0;
-      padding: 0;
-      background: none;
+    display: flex !important;
+    flex-direction: row;
+    position: relative;
+    top: 0;
+    padding: 0;
+    background: none;
   }
+
   nav ul.menu li:not(:last-child) {
-      margin-bottom: 0;
-      margin-right: 15px;
+    margin-bottom: 0;
+    margin-right: 15px;
   }
+
   nav ul.button {
-      display: none;
+    display: none;
   }
 }
-

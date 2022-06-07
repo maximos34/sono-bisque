@@ -15,29 +15,52 @@ main {
 }
 
 .capa {
-  width: 15rem;
-
+  width: 9rem;
 }
 
-.textbanner {
-  font-family: var(--paragraf);
-  text-transform: uppercase;
-  font-size: .8rem;
+.ptitulo {
+  font-size: 1.3rem;
+  font-family: var(--titulo);
+  text-transform: capitalize;
+  word-spacing: .2rem;
+  word-wrap: wrap;
+  text-align: center;
 }
+
+
 
 .principal {
-  border: .8rem double var(--color5);
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  border: 1rem groove var(--color1);
+  padding: 1rem;
 }
 
 .caixa {
-  border: .8rem double var(--color5);
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: .5rem groove var(--color1);
+  gap: 1rem;
 }
 
 .frosto {
   width: 100%;
+}
+
+.materia2 {
+  font-family: var(--paragraf);
+  font-size: 1.1rem;
+}
+
+.btn {
+  width: auto;
+  background: var(--color5);
+  color: var(--color-text-0);
+  padding: .5rem;
+  border: .6rem groove var(--color0);
+  font-family: var(--titulo);
 }
 
 
@@ -54,7 +77,6 @@ main {
     text-transform: capitalize;
     word-spacing: .2rem;
     word-wrap: wrap;
-    filter: blur(0);
     text-align: center;
   }
 
@@ -80,16 +102,16 @@ main {
     width: 100%;
   }
 
-.materia2{
-  font-family: var(--paragraf);
-  font-size:1.1rem;
-}
+  .materia2 {
+    font-family: var(--paragraf);
+    font-size: 1.1rem;
+  }
 
   .btn {
     width: auto;
-    background:var(--color5);
+    background: var(--color5);
     color: var(--color-text-0);
-    padding:.5rem; 
+    padding: .5rem;
     border: .6rem groove var(--color0);
     font-family: var(--titulo);
   }
