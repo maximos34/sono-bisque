@@ -1,7 +1,12 @@
 @import url(/src/css/estilo.css);
 
 main {
+  width: 100%;
+  height: 100%;
   background: var(--color0);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .banner {
@@ -49,7 +54,7 @@ main {
   width: 100%;
 }
 
-.materia2 {
+.materia1 {
   font-family: var(--paragraf);
   font-size: 1.1rem;
 }
@@ -58,8 +63,9 @@ main {
   width: auto;
   background: var(--color5);
   color: var(--color-text-0);
-  padding: .5rem;
+  padding: 1.5rem;
   border: .6rem groove var(--color0);
+  border-radius: 6rem;
   font-family: var(--titulo);
 }
 
@@ -116,3 +122,6 @@ main {
     font-family: var(--titulo);
   }
 }
+
+
+
